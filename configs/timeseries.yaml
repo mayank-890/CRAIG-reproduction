@@ -1,0 +1,63 @@
+# Time-Series Experiment Configuration
+dataset:
+  name: timeseries
+  dataset_name: FordA
+  data_dir: ./data/timeseries
+  subset_of_training_data: null
+  num_workers: 0
+
+model:
+  name: timeseries_cnn
+  input_channels: 1
+  num_classes: 2
+
+training:
+  epochs: 30
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: adam
+  loss_fn: cross_entropy
+
+craig:
+  subset_ratios:
+    - 0.10
+    - 0.20
+    - 0.30
+    - 0.50
+  distance_metric: euclidean
+  gradient_layer: all
+  weighted: true
+  chunk_size: 64
+  allow_large_computation: false
+  max_samples_safety: 20000
+
+experiments:
+  seeds:
+    - 42
+    - 123
+    - 456
+
+profiles:
+  debug:
+    epochs: 2
+    batch_size: 32
+    subset_of_training_data: 200
+    seeds: [42]
+    craig:
+      subset_ratios: [0.10, 0.20]
+  standard:
+    epochs: 25
+    batch_size: 64
+    subset_of_training_data: null
+    seeds: [42, 123, 456]
+    craig:
+      subset_ratios: [0.10, 0.20, 0.30, 0.50]
+
+device:
+  type: auto
+
+logging:
+  save_csv: true
+  save_plots: true
+  results_dir: ./results

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "craig-research"
+version = "0.1.0"
+description = "Gradient-Matching Data Subset Selection for Efficient Model Training (CRAIG Reproduction & Extension)"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "ML Research Team" }]
+license = { text = "MIT" }
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "scikit-learn>=1.2.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "tqdm>=4.65.0",
+    "pyyaml>=6.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["craig*", "models*", "datasets*", "baselines*", "training*", "analysis*"]

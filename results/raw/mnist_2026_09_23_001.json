@@ -1,0 +1,241 @@
+{
+  "experiment_id": "mnist_2026_09_23_001",
+  "timestamp": "2026-09-23T14:35:21.649558",
+  "config": {
+    "dataset": {
+      "name": "mnist",
+      "data_dir": "./data",
+      "subset_of_training_data": 1000,
+      "num_workers": 0
+    },
+    "model": {
+      "name": "logistic_regression",
+      "input_dim": 784,
+      "num_classes": 10
+    },
+    "training": {
+      "epochs": 2,
+      "batch_size": 64,
+      "learning_rate": 0.01,
+      "momentum": 0.9,
+      "weight_decay": 0.0001,
+      "optimizer": "sgd",
+      "loss_fn": "cross_entropy"
+    },
+    "craig": {
+      "subset_ratios": [
+        0.05,
+        0.1,
+        0.2,
+        0.5
+      ],
+      "distance_metric": "euclidean",
+      "gradient_layer": "all",
+      "weighted": true,
+      "chunk_size": 128,
+      "allow_large_computation": false,
+      "max_samples_safety": 20000
+    },
+    "experiments": {
+      "seeds": [
+        42
+      ]
+    },
+    "profiles": {
+      "debug": {
+        "epochs": 2,
+        "batch_size": 64,
+        "subset_of_training_data": 1000,
+        "seeds": [
+          42
+        ],
+        "craig": {
+          "subset_ratios": [
+            0.05,
+            0.1,
+            0.2,
+            0.5
+          ]
+        }
+      },
+      "standard": {
+        "epochs": 20,
+        "batch_size": 128,
+        "subset_of_training_data": null,
+        "seeds": [
+          42,
+          123,
+          456,
+          789,
+          1000
+        ],
+        "craig": {
+          "subset_ratios": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.5
+          ]
+        }
+      },
+      "large": {
+        "epochs": 40,
+        "batch_size": 128,
+        "subset_of_training_data": null,
+        "seeds": [
+          42,
+          123,
+          456,
+          789,
+          1000
+        ],
+        "craig": {
+          "subset_ratios": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.5
+          ]
+        }
+      }
+    },
+    "device": {
+      "type": "auto"
+    },
+    "logging": {
+      "save_csv": true,
+      "save_plots": true,
+      "results_dir": "./results"
+    }
+  },
+  "results_count": 5,
+  "records": [
+    {
+      "experiment_id": "mnist_2026_09_23_001",
+      "dataset": "mnist",
+      "model": "logistic_regression",
+      "method": "FULL",
+      "seed": 42,
+      "device": "mps",
+      "subset_ratio": 1.0,
+      "subset_size": 1000,
+      "total_train_samples": 1000,
+      "epochs": 2,
+      "batch_size": 64,
+      "learning_rate": 0.01,
+      "selection_time": 1.7208978533744812e-05,
+      "gradient_computation_time": 0.0,
+      "similarity_computation_time": 0.0,
+      "training_time": 3.838604582939297,
+      "total_time": 3.8386217919178307,
+      "train_loss": 0.41754986548423767,
+      "test_loss": 0.5152431065797806,
+      "accuracy": 0.8382,
+      "gradient_error": null,
+      "gradient_cosine_similarity": null,
+      "peak_memory_mb": 560.125
+    },
+    {
+      "experiment_id": "mnist_2026_09_23_001",
+      "dataset": "mnist",
+      "model": "logistic_regression",
+      "method": "RANDOM",
+      "seed": 42,
+      "device": "mps",
+      "subset_ratio": 0.05,
+      "subset_size": 50,
+      "total_train_samples": 1000,
+      "epochs": 2,
+      "batch_size": 50,
+      "learning_rate": 0.01,
+      "selection_time": 0.000986292026937008,
+      "gradient_computation_time": 0.0,
+      "similarity_computation_time": 0.0,
+      "training_time": 1.35780741693452,
+      "total_time": 1.358793708961457,
+      "train_loss": 2.120303153991699,
+      "test_loss": 2.0798020420074463,
+      "accuracy": 0.2577,
+      "gradient_error": null,
+      "gradient_cosine_similarity": null,
+      "peak_memory_mb": 560.125
+    },
+    {
+      "experiment_id": "mnist_2026_09_23_001",
+      "dataset": "mnist",
+      "model": "logistic_regression",
+      "method": "RANDOM",
+      "seed": 42,
+      "device": "mps",
+      "subset_ratio": 0.1,
+      "subset_size": 100,
+      "total_train_samples": 1000,
+      "epochs": 2,
+      "batch_size": 64,
+      "learning_rate": 0.01,
+      "selection_time": 8.716597221791744e-05,
+      "gradient_computation_time": 0.0,
+      "similarity_computation_time": 0.0,
+      "training_time": 0.9817045829258859,
+      "total_time": 0.9817917488981038,
+      "train_loss": 1.7640911912918091,
+      "test_loss": 1.628327512359619,
+      "accuracy": 0.536,
+      "gradient_error": null,
+      "gradient_cosine_similarity": null,
+      "peak_memory_mb": 560.125
+    },
+    {
+      "experiment_id": "mnist_2026_09_23_001",
+      "dataset": "mnist",
+      "model": "logistic_regression",
+      "method": "RANDOM",
+      "seed": 42,
+      "device": "mps",
+      "subset_ratio": 0.2,
+      "subset_size": 200,
+      "total_train_samples": 1000,
+      "epochs": 2,
+      "batch_size": 64,
+      "learning_rate": 0.01,
+      "selection_time": 5.308294203132391e-05,
+      "gradient_computation_time": 0.0,
+      "similarity_computation_time": 0.0,
+      "training_time": 1.1420119589893147,
+      "total_time": 1.142065041931346,
+      "train_loss": 1.305024845600128,
+      "test_loss": 1.0720351147651672,
+      "accuracy": 0.6794,
+      "gradient_error": null,
+      "gradient_cosine_similarity": null,
+      "peak_memory_mb": 560.125
+    },
+    {
+      "experiment_id": "mnist_2026_09_23_001",
+      "dataset": "mnist",
+      "model": "logistic_regression",
+      "method": "RANDOM",
+      "seed": 42,
+      "device": "mps",
+      "subset_ratio": 0.5,
+      "subset_size": 500,
+      "total_train_samples": 1000,
+      "epochs": 2,
+      "batch_size": 64,
+      "learning_rate": 0.01,
+      "selection_time": 5.237502045929432e-05,
+      "gradient_computation_time": 0.0,
+      "similarity_computation_time": 0.0,
+      "training_time": 1.026334209018387,
+      "total_time": 1.0263865840388462,
+      "train_loss": 0.632019680738449,
+      "test_loss": 0.5979757710933685,
+      "accuracy": 0.8008,
+      "gradient_error": null,
+      "gradient_cosine_similarity": null,
+      "peak_memory_mb": 560.125
+    }
+  ]
+}
