@@ -104,15 +104,15 @@ def scaling(df, key, ds, xlabel):
 
 def main():
     os.makedirs(FIG, exist_ok=True)
+    import glob
     for pre in ["mnist", "cifar10", "timeseries"]:
-        f = latest_csv(pre)
-        if not f:
-            print("skip", pre); continue
-        df = pd.read_csv(f)
-        if "CRAIG" not in set(df.method):
-            print("skip (no CRAIG rows)", f); continue
-        for fn in (acc_vs_ratio, time_breakdown, speedup, grad_error, acc_vs_time):
-            fn(df, pre)
+        for f in sorted(glob.glob(f"results/raw/{pre}_20*.csv")):
+            df = pd.read_csv(f)
+            if "CRAIG" not in set(df.method):
+                print("skip (no CRAIG rows)", f); continue
+            name = os.path.splitext(os.path.basename(f))[0]  # figures named after their source CSV
+            for fn in (acc_vs_ratio, time_breakdown, speedup, grad_error, acc_vs_time):
+                fn(df, name)
     f = latest_csv("scaling_size")
     if f: scaling(pd.read_csv(f), "total_train_samples", "scaling_dataset_size", "training set size N")
     f = latest_csv("scaling_seq")

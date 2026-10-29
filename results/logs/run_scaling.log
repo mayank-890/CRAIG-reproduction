@@ -1,0 +1,236 @@
+2026-10-29 10:52:08,036 [INFO] Using device: CPU
+2026-10-29 10:52:08,045 [INFO] ==== seed 42 ====
+2026-10-29 10:52:08,178 [INFO] Epoch   1/ 10 - Loss: 0.5333 - Acc: 0.9545
+2026-10-29 10:52:09,315 [INFO] Epoch  10/ 10 - Loss: 0.0046 - Acc: 1.0000
+2026-10-29 10:52:09,331 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=1.0000, TotalTime=1.27s
+2026-10-29 10:52:09,630 [INFO] CRAIG 0.10: k=200 sel=0.25s (grad 0.15 sim 0.08 fl 0.03) relerr=0.025
+2026-10-29 10:52:09,648 [INFO] Epoch   1/ 10 - Loss: 1.2215 - Acc: 0.6500
+2026-10-29 10:52:09,754 [INFO] Epoch  10/ 10 - Loss: 0.1836 - Acc: 1.0000
+2026-10-29 10:52:09,761 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=1.0000, TotalTime=0.38s
+2026-10-29 10:52:09,813 [INFO] Epoch   1/ 10 - Loss: 1.1911 - Acc: 0.7200
+2026-10-29 10:52:09,898 [INFO] Epoch  10/ 10 - Loss: 0.1589 - Acc: 1.0000
+2026-10-29 10:52:09,904 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=1.0000, TotalTime=0.09s
+2026-10-29 10:52:09,904 [INFO] ==== seed 123 ====
+2026-10-29 10:52:09,989 [INFO] Epoch   1/ 10 - Loss: 0.5124 - Acc: 0.9450
+2026-10-29 10:52:10,756 [INFO] Epoch  10/ 10 - Loss: 0.0044 - Acc: 1.0000
+2026-10-29 10:52:10,764 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=1.0000, TotalTime=0.85s
+2026-10-29 10:52:11,044 [INFO] CRAIG 0.10: k=200 sel=0.23s (grad 0.10 sim 0.10 fl 0.03) relerr=0.023
+2026-10-29 10:52:11,058 [INFO] Epoch   1/ 10 - Loss: 1.2397 - Acc: 0.5150
+2026-10-29 10:52:11,150 [INFO] Epoch  10/ 10 - Loss: 0.1415 - Acc: 1.0000
+2026-10-29 10:52:11,157 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=1.0000, TotalTime=0.33s
+2026-10-29 10:52:11,216 [INFO] Epoch   1/ 10 - Loss: 1.2278 - Acc: 0.4850
+2026-10-29 10:52:11,303 [INFO] Epoch  10/ 10 - Loss: 0.1333 - Acc: 1.0000
+2026-10-29 10:52:11,309 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=1.0000, TotalTime=0.10s
+2026-10-29 10:52:11,340 [INFO] Using device: CPU
+2026-10-29 10:52:11,345 [INFO] ==== seed 42 ====
+2026-10-29 10:52:11,459 [INFO] Epoch   1/ 10 - Loss: 0.7072 - Acc: 0.8465
+2026-10-29 10:52:12,411 [INFO] Epoch  10/ 10 - Loss: 0.0068 - Acc: 1.0000
+2026-10-29 10:52:12,426 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=1.0000, TotalTime=1.06s
+2026-10-29 10:52:12,747 [INFO] CRAIG 0.10: k=200 sel=0.28s (grad 0.16 sim 0.09 fl 0.03) relerr=0.022
+2026-10-29 10:52:12,767 [INFO] Epoch   1/ 10 - Loss: 1.2413 - Acc: 0.4250
+2026-10-29 10:52:12,873 [INFO] Epoch  10/ 10 - Loss: 0.3830 - Acc: 0.9900
+2026-10-29 10:52:12,883 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=1.0000, TotalTime=0.40s
+2026-10-29 10:52:12,948 [INFO] Epoch   1/ 10 - Loss: 1.2111 - Acc: 0.6050
+2026-10-29 10:52:13,052 [INFO] Epoch  10/ 10 - Loss: 0.3406 - Acc: 1.0000
+2026-10-29 10:52:13,061 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=1.0000, TotalTime=0.12s
+2026-10-29 10:52:13,061 [INFO] ==== seed 123 ====
+2026-10-29 10:52:13,162 [INFO] Epoch   1/ 10 - Loss: 0.7055 - Acc: 0.9025
+2026-10-29 10:52:14,119 [INFO] Epoch  10/ 10 - Loss: 0.0068 - Acc: 1.0000
+2026-10-29 10:52:14,131 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=1.0000, TotalTime=1.06s
+2026-10-29 10:52:14,426 [INFO] CRAIG 0.10: k=200 sel=0.24s (grad 0.13 sim 0.09 fl 0.03) relerr=0.019
+2026-10-29 10:52:14,443 [INFO] Epoch   1/ 10 - Loss: 1.2845 - Acc: 0.3950
+2026-10-29 10:52:14,555 [INFO] Epoch  10/ 10 - Loss: 0.3338 - Acc: 1.0000
+2026-10-29 10:52:14,566 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=1.0000, TotalTime=0.37s
+2026-10-29 10:52:14,636 [INFO] Epoch   1/ 10 - Loss: 1.2858 - Acc: 0.4450
+2026-10-29 10:52:14,776 [INFO] Epoch  10/ 10 - Loss: 0.3047 - Acc: 1.0000
+2026-10-29 10:52:14,786 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=1.0000, TotalTime=0.16s
+2026-10-29 10:52:14,825 [INFO] Using device: CPU
+2026-10-29 10:52:14,830 [INFO] ==== seed 42 ====
+2026-10-29 10:52:14,991 [INFO] Epoch   1/ 10 - Loss: 0.9035 - Acc: 0.5925
+2026-10-29 10:52:16,376 [INFO] Epoch  10/ 10 - Loss: 0.0341 - Acc: 0.9995
+2026-10-29 10:52:16,411 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=1.0000, TotalTime=1.55s
+2026-10-29 10:52:16,802 [INFO] CRAIG 0.10: k=200 sel=0.34s (grad 0.21 sim 0.11 fl 0.03) relerr=0.026
+2026-10-29 10:52:16,825 [INFO] Epoch   1/ 10 - Loss: 1.3250 - Acc: 0.4150
+2026-10-29 10:52:16,969 [INFO] Epoch  10/ 10 - Loss: 0.6590 - Acc: 0.7800
+2026-10-29 10:52:17,022 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=0.5650, TotalTime=0.51s
+2026-10-29 10:52:17,087 [INFO] Epoch   1/ 10 - Loss: 1.2975 - Acc: 0.4600
+2026-10-29 10:52:17,226 [INFO] Epoch  10/ 10 - Loss: 0.6109 - Acc: 0.8900
+2026-10-29 10:52:17,281 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=0.7620, TotalTime=0.16s
+2026-10-29 10:52:17,281 [INFO] ==== seed 123 ====
+2026-10-29 10:52:17,425 [INFO] Epoch   1/ 10 - Loss: 0.8935 - Acc: 0.7125
+2026-10-29 10:52:18,771 [INFO] Epoch  10/ 10 - Loss: 0.0343 - Acc: 1.0000
+2026-10-29 10:52:18,828 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=1.0000, TotalTime=1.49s
+2026-10-29 10:52:19,213 [INFO] CRAIG 0.10: k=200 sel=0.33s (grad 0.21 sim 0.10 fl 0.03) relerr=0.018
+2026-10-29 10:52:19,241 [INFO] Epoch   1/ 10 - Loss: 1.3373 - Acc: 0.3350
+2026-10-29 10:52:19,383 [INFO] Epoch  10/ 10 - Loss: 0.5812 - Acc: 0.9750
+2026-10-29 10:52:19,440 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=0.9900, TotalTime=0.50s
+2026-10-29 10:52:19,501 [INFO] Epoch   1/ 10 - Loss: 1.3363 - Acc: 0.3100
+2026-10-29 10:52:19,644 [INFO] Epoch  10/ 10 - Loss: 0.5676 - Acc: 1.0000
+2026-10-29 10:52:19,696 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=0.9870, TotalTime=0.16s
+2026-10-29 10:52:19,752 [INFO] Using device: CPU
+2026-10-29 10:52:19,759 [INFO] ==== seed 42 ====
+2026-10-29 10:52:20,018 [INFO] Epoch   1/ 10 - Loss: 1.0751 - Acc: 0.4945
+2026-10-29 10:52:22,344 [INFO] Epoch  10/ 10 - Loss: 0.1430 - Acc: 0.9985
+2026-10-29 10:52:22,507 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=1.0000, TotalTime=2.58s
+2026-10-29 10:52:23,452 [INFO] CRAIG 0.10: k=200 sel=0.90s (grad 0.77 sim 0.10 fl 0.03) relerr=0.020
+2026-10-29 10:52:23,489 [INFO] Epoch   1/ 10 - Loss: 1.3739 - Acc: 0.3400
+2026-10-29 10:52:23,736 [INFO] Epoch  10/ 10 - Loss: 0.8385 - Acc: 0.5100
+2026-10-29 10:52:23,920 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=0.6970, TotalTime=1.18s
+2026-10-29 10:52:24,005 [INFO] Epoch   1/ 10 - Loss: 1.3433 - Acc: 0.3100
+2026-10-29 10:52:24,260 [INFO] Epoch  10/ 10 - Loss: 0.7989 - Acc: 0.7550
+2026-10-29 10:52:24,416 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=0.7490, TotalTime=0.29s
+2026-10-29 10:52:24,416 [INFO] ==== seed 123 ====
+2026-10-29 10:52:24,686 [INFO] Epoch   1/ 10 - Loss: 1.0493 - Acc: 0.5185
+2026-10-29 10:52:27,044 [INFO] Epoch  10/ 10 - Loss: 0.1308 - Acc: 0.9990
+2026-10-29 10:52:27,206 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=1.0000, TotalTime=2.63s
+2026-10-29 10:52:28,124 [INFO] CRAIG 0.10: k=200 sel=0.86s (grad 0.72 sim 0.11 fl 0.03) relerr=0.013
+2026-10-29 10:52:28,158 [INFO] Epoch   1/ 10 - Loss: 1.3763 - Acc: 0.2600
+2026-10-29 10:52:28,406 [INFO] Epoch  10/ 10 - Loss: 0.7836 - Acc: 0.5950
+2026-10-29 10:52:28,570 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=0.6410, TotalTime=1.14s
+2026-10-29 10:52:28,681 [INFO] Epoch   1/ 10 - Loss: 1.3696 - Acc: 0.2750
+2026-10-29 10:52:28,926 [INFO] Epoch  10/ 10 - Loss: 0.7764 - Acc: 0.8800
+2026-10-29 10:52:29,112 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=0.9690, TotalTime=0.31s
+2026-10-29 10:52:29,201 [INFO] Using device: CPU
+2026-10-29 10:52:29,209 [INFO] ==== seed 42 ====
+2026-10-29 10:52:29,825 [INFO] Epoch   1/ 10 - Loss: 1.2168 - Acc: 0.5160
+2026-10-29 10:52:35,312 [INFO] Epoch  10/ 10 - Loss: 0.4071 - Acc: 0.9950
+2026-10-29 10:52:35,625 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=0.7700, TotalTime=6.10s
+2026-10-29 10:52:37,416 [INFO] CRAIG 0.10: k=200 sel=1.74s (grad 1.67 sim 0.05 fl 0.03) relerr=0.012
+2026-10-29 10:52:37,471 [INFO] Epoch   1/ 10 - Loss: 1.3882 - Acc: 0.3050
+2026-10-29 10:52:37,896 [INFO] Epoch  10/ 10 - Loss: 1.0181 - Acc: 0.5100
+2026-10-29 10:52:38,223 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=0.6040, TotalTime=2.22s
+2026-10-29 10:52:38,333 [INFO] Epoch   1/ 10 - Loss: 1.3580 - Acc: 0.3100
+2026-10-29 10:52:38,762 [INFO] Epoch  10/ 10 - Loss: 0.9894 - Acc: 0.7950
+2026-10-29 10:52:39,072 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=0.6250, TotalTime=0.48s
+2026-10-29 10:52:39,072 [INFO] ==== seed 123 ====
+2026-10-29 10:52:39,563 [INFO] Epoch   1/ 10 - Loss: 1.2064 - Acc: 0.4880
+2026-10-29 10:52:43,629 [INFO] Epoch  10/ 10 - Loss: 0.3857 - Acc: 0.9980
+2026-10-29 10:52:43,919 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=0.9170, TotalTime=4.55s
+2026-10-29 10:52:45,383 [INFO] CRAIG 0.10: k=200 sel=1.41s (grad 1.33 sim 0.05 fl 0.03) relerr=0.009
+2026-10-29 10:52:45,435 [INFO] Epoch   1/ 10 - Loss: 1.3991 - Acc: 0.2600
+2026-10-29 10:52:45,857 [INFO] Epoch  10/ 10 - Loss: 0.9862 - Acc: 0.5100
+2026-10-29 10:52:46,156 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=0.4880, TotalTime=1.88s
+2026-10-29 10:52:46,250 [INFO] Epoch   1/ 10 - Loss: 1.3894 - Acc: 0.2550
+2026-10-29 10:52:46,703 [INFO] Epoch  10/ 10 - Loss: 0.9768 - Acc: 0.6200
+2026-10-29 10:52:47,010 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=0.6600, TotalTime=0.50s
+2026-10-29 10:52:47,025 [INFO] Saved experiment results to CSV: ./results/raw/scaling_seq_2026_10_29_001.csv
+2026-10-29 10:52:47,025 [INFO] Saved experiment metadata to JSON: ./results/raw/scaling_seq_2026_10_29_001.json
+CSV: ./results/raw/scaling_seq_2026_10_29_001.csv
+2026-10-29 10:52:47,169 [INFO] Using device: CPU
+2026-10-29 10:52:47,221 [INFO] ==== seed 42 ====
+2026-10-29 10:52:47,229 [INFO] Epoch   1/ 10 - Loss: 1.6670 - Acc: 0.5010
+2026-10-29 10:52:47,273 [INFO] Epoch  10/ 10 - Loss: 0.1980 - Acc: 0.9500
+2026-10-29 10:52:47,721 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=0.8661, TotalTime=0.05s
+2026-10-29 10:52:47,753 [INFO] CRAIG 0.10: k=100 sel=0.03s (grad 0.02 sim 0.01 fl 0.01) relerr=0.359
+2026-10-29 10:52:47,755 [INFO] Epoch   1/ 10 - Loss: 2.2795 - Acc: 0.1100
+2026-10-29 10:52:47,761 [INFO] Epoch  10/ 10 - Loss: 0.3281 - Acc: 0.9300
+2026-10-29 10:52:48,199 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=0.7670, TotalTime=0.04s
+2026-10-29 10:52:48,204 [INFO] Epoch   1/ 10 - Loss: 2.2821 - Acc: 0.1100
+2026-10-29 10:52:48,209 [INFO] Epoch  10/ 10 - Loss: 0.4133 - Acc: 0.9300
+2026-10-29 10:52:48,655 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=0.7070, TotalTime=0.01s
+2026-10-29 10:52:48,655 [INFO] ==== seed 123 ====
+2026-10-29 10:52:48,661 [INFO] Epoch   1/ 10 - Loss: 1.6919 - Acc: 0.5010
+2026-10-29 10:52:48,707 [INFO] Epoch  10/ 10 - Loss: 0.1986 - Acc: 0.9520
+2026-10-29 10:52:49,150 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=0.8639, TotalTime=0.05s
+2026-10-29 10:52:49,176 [INFO] CRAIG 0.10: k=100 sel=0.02s (grad 0.01 sim 0.01 fl 0.01) relerr=0.332
+2026-10-29 10:52:49,178 [INFO] Epoch   1/ 10 - Loss: 2.3328 - Acc: 0.0600
+2026-10-29 10:52:49,185 [INFO] Epoch  10/ 10 - Loss: 0.3108 - Acc: 0.9300
+2026-10-29 10:52:49,633 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=0.7662, TotalTime=0.03s
+2026-10-29 10:52:49,638 [INFO] Epoch   1/ 10 - Loss: 2.3808 - Acc: 0.0400
+2026-10-29 10:52:49,644 [INFO] Epoch  10/ 10 - Loss: 0.3669 - Acc: 0.9500
+2026-10-29 10:52:50,105 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=0.7495, TotalTime=0.01s
+2026-10-29 10:52:50,131 [INFO] Using device: CPU
+2026-10-29 10:52:50,221 [INFO] ==== seed 42 ====
+2026-10-29 10:52:50,233 [INFO] Epoch   1/ 10 - Loss: 1.1812 - Acc: 0.6520
+2026-10-29 10:52:50,320 [INFO] Epoch  10/ 10 - Loss: 0.2017 - Acc: 0.9535
+2026-10-29 10:52:50,759 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=0.8844, TotalTime=0.10s
+2026-10-29 10:52:50,823 [INFO] CRAIG 0.10: k=199 sel=0.05s (grad 0.02 sim 0.01 fl 0.02) relerr=0.249
+2026-10-29 10:52:50,826 [INFO] Epoch   1/ 10 - Loss: 2.2363 - Acc: 0.1457
+2026-10-29 10:52:50,840 [INFO] Epoch  10/ 10 - Loss: 0.2111 - Acc: 0.8894
+2026-10-29 10:52:51,448 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=0.8253, TotalTime=0.07s
+2026-10-29 10:52:51,473 [INFO] Epoch   1/ 10 - Loss: 2.2533 - Acc: 0.1450
+2026-10-29 10:52:51,491 [INFO] Epoch  10/ 10 - Loss: 0.2647 - Acc: 0.9550
+2026-10-29 10:52:51,934 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=0.8008, TotalTime=0.02s
+2026-10-29 10:52:51,934 [INFO] ==== seed 123 ====
+2026-10-29 10:52:51,946 [INFO] Epoch   1/ 10 - Loss: 1.1954 - Acc: 0.6445
+2026-10-29 10:52:52,035 [INFO] Epoch  10/ 10 - Loss: 0.2007 - Acc: 0.9505
+2026-10-29 10:52:52,483 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=0.8856, TotalTime=0.10s
+2026-10-29 10:52:52,548 [INFO] CRAIG 0.10: k=199 sel=0.05s (grad 0.02 sim 0.01 fl 0.02) relerr=0.235
+2026-10-29 10:52:52,550 [INFO] Epoch   1/ 10 - Loss: 2.2896 - Acc: 0.1055
+2026-10-29 10:52:52,564 [INFO] Epoch  10/ 10 - Loss: 0.1769 - Acc: 0.9095
+2026-10-29 10:52:53,033 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=0.8208, TotalTime=0.06s
+2026-10-29 10:52:53,054 [INFO] Epoch   1/ 10 - Loss: 2.3173 - Acc: 0.1100
+2026-10-29 10:52:53,064 [INFO] Epoch  10/ 10 - Loss: 0.2248 - Acc: 0.9500
+2026-10-29 10:52:53,512 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=0.7824, TotalTime=0.01s
+2026-10-29 10:52:53,535 [INFO] Using device: CPU
+2026-10-29 10:52:53,763 [INFO] ==== seed 42 ====
+2026-10-29 10:52:53,790 [INFO] Epoch   1/ 10 - Loss: 0.7212 - Acc: 0.7938
+2026-10-29 10:52:54,015 [INFO] Epoch  10/ 10 - Loss: 0.2064 - Acc: 0.9442
+2026-10-29 10:52:54,473 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=0.9024, TotalTime=0.25s
+2026-10-29 10:52:54,699 [INFO] CRAIG 0.10: k=500 sel=0.18s (grad 0.07 sim 0.05 fl 0.06) relerr=0.175
+2026-10-29 10:52:54,704 [INFO] Epoch   1/ 10 - Loss: 2.0223 - Acc: 0.3520
+2026-10-29 10:52:54,736 [INFO] Epoch  10/ 10 - Loss: 0.1445 - Acc: 0.9260
+2026-10-29 10:52:55,212 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=0.8683, TotalTime=0.22s
+2026-10-29 10:52:55,254 [INFO] Epoch   1/ 10 - Loss: 2.0733 - Acc: 0.2980
+2026-10-29 10:52:55,278 [INFO] Epoch  10/ 10 - Loss: 0.1839 - Acc: 0.9520
+2026-10-29 10:52:55,741 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=0.8511, TotalTime=0.03s
+2026-10-29 10:52:55,741 [INFO] ==== seed 123 ====
+2026-10-29 10:52:55,770 [INFO] Epoch   1/ 10 - Loss: 0.7316 - Acc: 0.7818
+2026-10-29 10:52:55,989 [INFO] Epoch  10/ 10 - Loss: 0.2025 - Acc: 0.9438
+2026-10-29 10:52:56,445 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=0.8989, TotalTime=0.25s
+2026-10-29 10:52:56,682 [INFO] CRAIG 0.10: k=500 sel=0.19s (grad 0.08 sim 0.05 fl 0.07) relerr=0.171
+2026-10-29 10:52:56,689 [INFO] Epoch   1/ 10 - Loss: 2.0619 - Acc: 0.3180
+2026-10-29 10:52:56,719 [INFO] Epoch  10/ 10 - Loss: 0.1450 - Acc: 0.9300
+2026-10-29 10:52:57,192 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=0.8647, TotalTime=0.23s
+2026-10-29 10:52:57,234 [INFO] Epoch   1/ 10 - Loss: 2.0960 - Acc: 0.3060
+2026-10-29 10:52:57,256 [INFO] Epoch  10/ 10 - Loss: 0.2072 - Acc: 0.9500
+2026-10-29 10:52:57,715 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=0.8511, TotalTime=0.03s
+2026-10-29 10:52:57,746 [INFO] Using device: CPU
+2026-10-29 10:52:58,199 [INFO] ==== seed 42 ====
+2026-10-29 10:52:58,255 [INFO] Epoch   1/ 10 - Loss: 0.5553 - Acc: 0.8376
+2026-10-29 10:52:58,693 [INFO] Epoch  10/ 10 - Loss: 0.2273 - Acc: 0.9351
+2026-10-29 10:52:59,147 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=0.9112, TotalTime=0.49s
+2026-10-29 10:52:59,823 [INFO] CRAIG 0.10: k=999 sel=0.58s (grad 0.13 sim 0.15 fl 0.30) relerr=0.141
+2026-10-29 10:52:59,832 [INFO] Epoch   1/ 10 - Loss: 1.5824 - Acc: 0.5085
+2026-10-29 10:52:59,894 [INFO] Epoch  10/ 10 - Loss: 0.1362 - Acc: 0.9269
+2026-10-29 10:53:00,381 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=0.8892, TotalTime=0.65s
+2026-10-29 10:53:00,480 [INFO] Epoch   1/ 10 - Loss: 1.6603 - Acc: 0.4950
+2026-10-29 10:53:00,526 [INFO] Epoch  10/ 10 - Loss: 0.1763 - Acc: 0.9710
+2026-10-29 10:53:00,980 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=0.8716, TotalTime=0.05s
+2026-10-29 10:53:00,981 [INFO] ==== seed 123 ====
+2026-10-29 10:53:01,033 [INFO] Epoch   1/ 10 - Loss: 0.5543 - Acc: 0.8401
+2026-10-29 10:53:01,470 [INFO] Epoch  10/ 10 - Loss: 0.2270 - Acc: 0.9357
+2026-10-29 10:53:01,924 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=0.9083, TotalTime=0.49s
+2026-10-29 10:53:02,609 [INFO] CRAIG 0.10: k=999 sel=0.58s (grad 0.13 sim 0.16 fl 0.29) relerr=0.136
+2026-10-29 10:53:02,619 [INFO] Epoch   1/ 10 - Loss: 1.5800 - Acc: 0.5105
+2026-10-29 10:53:02,683 [INFO] Epoch  10/ 10 - Loss: 0.1350 - Acc: 0.9289
+2026-10-29 10:53:03,136 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=0.8843, TotalTime=0.65s
+2026-10-29 10:53:03,236 [INFO] Epoch   1/ 10 - Loss: 1.6818 - Acc: 0.4950
+2026-10-29 10:53:03,289 [INFO] Epoch  10/ 10 - Loss: 0.1778 - Acc: 0.9650
+2026-10-29 10:53:03,759 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=0.8835, TotalTime=0.06s
+2026-10-29 10:53:03,818 [INFO] Using device: CPU
+2026-10-29 10:53:04,759 [INFO] ==== seed 42 ====
+2026-10-29 10:53:04,876 [INFO] Epoch   1/ 10 - Loss: 0.4574 - Acc: 0.8675
+2026-10-29 10:53:05,828 [INFO] Epoch  10/ 10 - Loss: 0.2465 - Acc: 0.9307
+2026-10-29 10:53:06,294 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=42, TestAcc=0.9136, TotalTime=1.06s
+2026-10-29 10:53:09,653 [INFO] CRAIG 0.10: k=1999 sel=3.14s (grad 0.32 sim 0.55 fl 2.23) relerr=0.115
+2026-10-29 10:53:09,671 [INFO] Epoch   1/ 10 - Loss: 1.0745 - Acc: 0.6363
+2026-10-29 10:53:09,784 [INFO] Epoch  10/ 10 - Loss: 0.1485 - Acc: 0.9220
+2026-10-29 10:53:10,259 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=42, TestAcc=0.8960, TotalTime=3.26s
+2026-10-29 10:53:10,435 [INFO] Epoch   1/ 10 - Loss: 1.1684 - Acc: 0.6435
+2026-10-29 10:53:10,520 [INFO] Epoch  10/ 10 - Loss: 0.1992 - Acc: 0.9465
+2026-10-29 10:53:10,984 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=42, TestAcc=0.8894, TotalTime=0.10s
+2026-10-29 10:53:10,984 [INFO] ==== seed 123 ====
+2026-10-29 10:53:11,088 [INFO] Epoch   1/ 10 - Loss: 0.4603 - Acc: 0.8667
+2026-10-29 10:53:11,982 [INFO] Epoch  10/ 10 - Loss: 0.2464 - Acc: 0.9311
+2026-10-29 10:53:12,443 [INFO] Logged run: Method=FULL, SubsetRatio=1.00, Seed=123, TestAcc=0.9166, TotalTime=0.99s
+2026-10-29 10:53:15,540 [INFO] CRAIG 0.10: k=1999 sel=2.88s (grad 0.27 sim 0.50 fl 2.08) relerr=0.110
+2026-10-29 10:53:15,556 [INFO] Epoch   1/ 10 - Loss: 1.0892 - Acc: 0.6348
+2026-10-29 10:53:15,681 [INFO] Epoch  10/ 10 - Loss: 0.1477 - Acc: 0.9230
+2026-10-29 10:53:16,302 [INFO] Logged run: Method=CRAIG, SubsetRatio=0.10, Seed=123, TestAcc=0.8947, TotalTime=3.02s
+2026-10-29 10:53:16,486 [INFO] Epoch   1/ 10 - Loss: 1.2022 - Acc: 0.6355
+2026-10-29 10:53:16,574 [INFO] Epoch  10/ 10 - Loss: 0.2189 - Acc: 0.9455
+2026-10-29 10:53:17,021 [INFO] Logged run: Method=RANDOM, SubsetRatio=0.10, Seed=123, TestAcc=0.8915, TotalTime=0.10s
+2026-10-29 10:53:17,047 [INFO] Saved experiment results to CSV: ./results/raw/scaling_size_2026_10_29_001.csv
+2026-10-29 10:53:17,047 [INFO] Saved experiment metadata to JSON: ./results/raw/scaling_size_2026_10_29_001.json
+CSV: ./results/raw/scaling_size_2026_10_29_001.csv

@@ -15,15 +15,15 @@ from experiments.common import run_benchmark
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", stream=sys.stdout)
 
 
-def run(n_train, seq_length, seeds, ratios, epochs, methods, num_classes, lg, layers="all", tag="timeseries"):
+def run(n_train, seq_length, seeds, ratios, epochs, methods, num_classes, lg, layers="all", tag="timeseries", noise_std=0.2):
     train_ds, test_ds = create_synthetic_timeseries(num_train=n_train, num_test=1000, seq_length=seq_length,
-                                                    num_classes=num_classes, seed=0)
+                                                    num_classes=num_classes, seed=0, noise_std=noise_std)
     run_benchmark(dataset="timeseries_synthetic", model_name="timeseries_cnn",
                   model_fn=lambda: TimeSeriesCNN(1, num_classes), train_ds=train_ds, test_ds=test_ds, seeds=seeds,
                   ratios=ratios, methods=methods, epochs=epochs, batch_size=64,
                   opt_cfg=dict(optimizer="adam", lr=1e-3, weight_decay=1e-4), device=get_device("auto"),
                   exp_logger=lg, craig_cfg=dict(layers=layers, chunk_size=128, per_class=True),
-                  extra=dict(seq_length=seq_length, num_classes=num_classes, experiment_tag=tag))
+                  extra=dict(seq_length=seq_length, noise_std=noise_std, num_classes=num_classes, experiment_tag=tag))
 
 
 def main():
@@ -32,12 +32,13 @@ def main():
     p.add_argument("--seq-length", type=int, default=100)
     p.add_argument("--num-classes", type=int, default=4)
     p.add_argument("--epochs", type=int, default=10)
+    p.add_argument("--noise-std", type=float, default=0.2)
     p.add_argument("--seeds", type=int, nargs="+", default=[42, 123, 456])
     p.add_argument("--ratios", type=float, nargs="+", default=[0.05, 0.1, 0.2, 0.3, 0.5])
     p.add_argument("--methods", nargs="+", default=["FULL", "RANDOM", "CRAIG", "CRAIG_UNWEIGHTED"])
     a = p.parse_args()
     lg = ExperimentLogger("./results", "timeseries")
-    run(a.n_train, a.seq_length, a.seeds, a.ratios, a.epochs, a.methods, a.num_classes, lg)
+    run(a.n_train, a.seq_length, a.seeds, a.ratios, a.epochs, a.methods, a.num_classes, lg, noise_std=a.noise_std)
     print("CSV:", lg.save({"cli_args": vars(a), "data": "synthetic"}))
 
 

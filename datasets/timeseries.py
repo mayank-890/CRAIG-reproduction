@@ -15,6 +15,7 @@ def create_synthetic_timeseries(
     num_classes: int = 2,
     num_channels: int = 1,
     seed: int = 42,
+    noise_std: float = 0.2,
 ) -> Tuple[Dataset, Dataset]:
     """Generate synthetic time-series data with distinctive class frequency signatures.
     
@@ -41,7 +42,7 @@ def create_synthetic_timeseries(
             freq = (cls + 1) * 2.0
             phase = rng.uniform(0, 2 * np.pi)
             signal = np.sin(2 * np.pi * freq * t + phase)
-            noise = rng.normal(0, 0.2, size=seq_length)
+            noise = rng.normal(0, noise_std, size=seq_length)
             for c in range(num_channels):
                 X[i, c] = signal + noise
                 
