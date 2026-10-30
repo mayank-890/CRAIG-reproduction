@@ -147,3 +147,45 @@ All experimental outputs are saved directly to `results/raw/mnist_*.csv` and `re
 
 - Mirzasoleiman, B., Bilmes, J., & Leskovec, J. (2020). *Coresets for Data-Efficient Training of Machine Learning Models.* ICML 2020.
 - Nemhauser, G. L., Wolsey, L. A., & Fisher, M. L. (1978). *An analysis of approximations for maximizing submodular set functions—I.* Mathematical Programming.
+
+---
+
+## Results figures (same graphs as in the paper)
+
+Full paper: [`paper/paper.pdf`](paper/paper.pdf) · Results summary: [`results/PHASE2-5_SUMMARY.pdf`](results/PHASE2-5_SUMMARY.pdf). All figures are generated from the CSVs in `results/raw/`.
+
+**MNIST: test accuracy vs. subset size** (mean ± std, 5 seeds; dashed line = full training, 92.22%)
+
+![MNIST accuracy vs ratio](paper/figures/mnist_acc_vs_ratio.png)
+
+**MNIST: gradient approximation error**
+
+![MNIST gradient error](paper/figures/mnist_grad_err_rel.png)
+
+**MNIST: CRAIG wall-clock time by stage** (dashed line = full training, 6.6 s)
+
+![MNIST time breakdown](paper/figures/mnist_time_breakdown.png)
+
+**MNIST: speedup relative to full training** (selection time included)
+
+![MNIST speedup](paper/figures/mnist_speedup.png)
+
+**CIFAR-10 (reduced scale): test accuracy vs. subset size** (3 seeds; dashed line = full training, 59.02%)
+
+![CIFAR-10 accuracy vs ratio](paper/figures/cifar10_acc_vs_ratio.png)
+
+**CIFAR-10 (reduced scale): gradient approximation error**
+
+![CIFAR-10 gradient error](paper/figures/cifar10_grad_err_rel.png)
+
+**Scaling with dataset size** (CRAIG cost vs. full training; break-even between 5,000 and 10,000 samples)
+
+![Scaling by dataset size](paper/figures/scaling_size_cost.png)
+
+**Scaling with sequence length**
+
+![Scaling by sequence length](paper/figures/scaling_seq_cost.png)
+
+**Synthetic time series, hard setting: test accuracy vs. subset size** (unstable; not reliable for ranking methods)
+
+![Time series accuracy](paper/figures/ts_hard_acc_vs_ratio.png)
